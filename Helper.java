@@ -19,4 +19,7 @@ public class Helper {
 	public static boolean isTimeOut(Long startTime, Long dueInMillis) {
 		return (startTime + dueInMillis) < System.currentTimeMillis();
 	}
+	public String output(){
+		return System.out.print("Hello");
+	}
 }
